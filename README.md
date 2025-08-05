@@ -31,7 +31,7 @@ A simple and responsive website template for NGOs (Non-Governmental Organization
 3. **Open `index.html` in your browser to view the website.**
    - No additional setup required. All files are static.
 
-```
+   ```
 
 ## Customization
 
