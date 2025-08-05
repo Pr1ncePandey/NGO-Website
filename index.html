@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bastiki Pathshala - Education for All</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <i class="fas fa-book-open-reader"></i>
+            <span>Basti ki Pathshala</span>
+        </div>
+        <ul id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero-content">
+            <h1>Education for <span>Every Child</span></h1>
+            <p>Empowering underprivileged children through education and breaking the cycle of poverty</p>
+            <div class="cta-buttons">
+                <button class="volunteer-btn"><a href="#volunteer">Join as Volunteer</a></button>
+                <button class="learn-more-btn"><a href="#about"><i class="fas fa-circle-info"></i> Learn More</a></button>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="section-content">
+            <h2>About Basti Ki Pathshala</h2>
+            <p>Dedicated to transforming lives through education and creating opportunities for underprivileged children</p>
+            
+            <div class="about-details">
+                <div class="mission-text">
+                    <h3>Our Mission</h3>
+                    <p>At Bastiki Pathshala, we are committed to providing quality education to underprivileged children in slum areas. We believe that education is the most powerful tool to break the cycle of poverty and create lasting change in communities.</p>
+                    <p>Our comprehensive approach focuses not just on academic learning, but also on building confidence, resilience, and hope in every child we serve. Through dedicated teachers, volunteers, and community partnerships, we create an environment where children can thrive and reach their full potential.</p>
+                    <p>What makes us unique is our community-based model. We work closely with local leaders and parents to create sustainable education solutions tailored to each neighborhood's specific needs.</p>
+                    <p>Our graduates have gone on to attend prestigious schools, secure stable employment, and even return as volunteers to help the next generation. This cycle of empowerment is at the heart of our mission.</p>
+                </div>
+                
+                <div class="mission-cards">
+                    <div class="card">
+                        <div class="icon"><i class="fas fa-eye"></i></div>
+                        <h4>Our Mission</h4>
+                        <p>A world where every child has access to quality education</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon"><i class="fas fa-handshake"></i></div>
+                        <h4>Our Values</h4>
+                        <p>Compassion, integrity, and unwavering commitment to children</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon"><i class="fas fa-star"></i></div>
+                        <h4>Our Goal</h4>
+                        <p>Empowering children to create their own success stories</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="volunteer" class="volunteer-section">
+        <div class="section-content">
+            <h2>Volunteer with Us</h2>
+            <p>Join us in making a difference. Your contribution can help us provide education to children in need</p>
+            
+            <form class="volunteer-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone *</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="interest">Area of Interest *</label>
+                    <select id="interest" required>
+                        <option value="">Select an area</option>
+                        <option value="teaching">Teaching & Tutoring</option>
+                        <option value="mentoring">Student Mentoring</option>
+                        <option value="admin">Administrative Support</option>
+                        <option value="fundraising">Fundraising & Events</option>
+                        <option value="technology">Technology Support</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Why do you want to volunteer with us?</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i> Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-book-open-reader"></i>
+                <span>Basti ki Pathshala</span>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> info@bastikipathshala.org</p>
+                <p><i class="fas fa-phone"></i> +91 123 456 7890</p>
+                <p><i class="fas fa-map-marker-alt"></i> Delhi, India</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
